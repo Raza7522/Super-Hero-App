@@ -123,18 +123,6 @@ p {
 
 /* !--------------------------Media Queries-------------------------- */
 
-@media (max-width:700px) {
-  .hero-image{
-    width: 70%;
-  }
-}
-
-@media (max-width:500px) {
-  .hero-image{
-    width: 100%;
-  }
-}
-
 @media (max-width:400px) {
   .search-area{
     flex-direction: column;
