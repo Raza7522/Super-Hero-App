@@ -61,10 +61,8 @@ const randomHero = function () {
 
 newHeroButton.onclick = () => {
     getSuperHero(randomHero());
-    heroImageDiv.classList.add("active");
 }
 
 searchButton.onclick = () => {
     getSearchSuperHero(searchInput.value);
-    heroImageDiv.classList.add("active");
 }
