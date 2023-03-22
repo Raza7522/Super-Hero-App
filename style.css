@@ -1,0 +1,154 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@700&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4a735d;
+  background-image: linear-gradient(120deg, #85ffbd 0%, #fffb7d 100%);
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  color: #004337;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.desc,
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+
+/* !--------------------------Search Area-------------------------- */
+
+.search-area {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  display: inline-block;
+  width: 60%;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.btn {
+  border: none;
+  background-color: #09f175;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.new-hero-btn {
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #09f175;
+}
+
+
+/* !--------------------------Hero-Image Area-------------------------- */
+
+.hero-image {
+  margin: 1rem;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+.active{
+  border: 2px solid black;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero-image h2 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #004337;
+}
+
+.hero-image img{
+  border-radius: 1rem;
+  margin: 1rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero-image p{
+  margin: 0.3rem;
+  color: black;
+}
+
+
+/* !--------------------------Media Queries-------------------------- */
+
+@media (max-width:700px) {
+  .hero-image{
+    width: 70%;
+  }
+}
+
+@media (max-width:500px) {
+  .hero-image{
+    width: 100%;
+  }
+}
+
+@media (max-width:400px) {
+  .search-area{
+    flex-direction: column;
+  }
+
+  .search-input{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
