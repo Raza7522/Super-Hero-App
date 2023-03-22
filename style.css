@@ -97,13 +97,6 @@ p {
   justify-content: center;
   text-align: center;
   padding: 1rem;
-
-}
-
-.active{
-  border: 2px solid black;
-  border-radius: 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .hero-image h2 {
